@@ -1,11 +1,11 @@
-// @tailwind base;
-// @tailwind components;
-// @tailwind utilities;
+@import "tailwind base";
+@import "tailwind components";
+@import "tailwind utilities";
 
 @import "../app/styles/button.module.scss";
 @import "../app/styles/text.module.scss";
 
-:root  {
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
