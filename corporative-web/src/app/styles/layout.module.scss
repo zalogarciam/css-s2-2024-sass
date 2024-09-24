@@ -1,0 +1,15 @@
+@import "../styles/mixins.module.scss";
+$row: row;
+$column: column;
+
+.navBar {
+  @include flex($row);
+  font-size: 3rem;
+  font-family: var(--primary-font-family);
+  margin: 2rem;
+}
+
+.card {
+  @include flex($row);
+  margin: 2rem 0rem;
+}

@@ -4,10 +4,13 @@
 
 @import "../app/styles/button.module.scss";
 @import "../app/styles/text.module.scss";
+@import "../app/styles/layout.module.scss";
+@import "../app/styles/mixins.module.scss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-font-family: "Courier New", Courier, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
