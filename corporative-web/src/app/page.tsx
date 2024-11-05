@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Card from "./components/card";
 import styles from "@/app/styles/layout.module.scss";
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
         </div>{" "}
         <h1 className="primary-subtitle">Our Culture</h1>
         <div className={styles.card}>
-          <Card name="Mission"></Card>
+          <Card name={"Mission"}></Card>
           <Card name="Vision"></Card>
           <Card name="Values"></Card>
         </div>

@@ -1,5 +1,9 @@
 import styles from "@/app/styles/card.module.scss";
-const Card = ({ name, description }: any) => {
+type CardProps = {
+  name: string;
+};
+
+const Card = ({ name }: CardProps) => {
   return (
     <div className={styles.profileCard}>
       <div className={styles.header}>{name}</div>
