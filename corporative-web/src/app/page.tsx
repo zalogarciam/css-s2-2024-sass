@@ -12,7 +12,7 @@ export default function Home() {
             <li>Contact</li>
           </ul>
         </nav>
-        <h1 className="primary-title">Macrosoft</h1>
+        <h1 className="primary-title">MACROSOFT</h1>
         <div className="primary-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
           odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
