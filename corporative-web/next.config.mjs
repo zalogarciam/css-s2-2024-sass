@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  "@typescript-eslint/no-explicit-any": ["off"],
+  reactStrictMode: true,
+  images: {
+    domains: ["picsum.photos"],
+  },
 };
 
 export default nextConfig;
