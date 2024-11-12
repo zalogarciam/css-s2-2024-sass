@@ -1,15 +1,25 @@
 import Card from "./components/card";
 import styles from "@/app/styles/layout.module.scss";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="container mx-auto">
       <main>
         <nav>
           <ul className={styles.navBar}>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/services">Services</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
         <h1 className="primary-title">MACROSOFT</h1>
