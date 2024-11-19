@@ -1,7 +1,8 @@
 "use client";
 import localFont from "next/font/local";
-import "bootstrap/dist/css/bootstrap.min.css"; // Importa solo el CSS globalmente
+// import "bootstrap/dist/css/bootstrap.min.css"; // Importa solo el CSS globalmente
 import { useEffect } from "react";
+import "./globals.scss";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
