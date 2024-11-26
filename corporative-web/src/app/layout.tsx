@@ -1,8 +1,13 @@
 "use client";
 import localFont from "next/font/local";
 // import "bootstrap/dist/css/bootstrap.min.css"; // Importa solo el CSS globalmente
+import "materialize-css/dist/css/materialize.min.css";
+import "materialize-css/dist/js/materialize.min.js";
+
 import { useEffect } from "react";
 import "./globals.scss";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,7 +43,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header></Header>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
